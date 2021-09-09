@@ -10,64 +10,52 @@
     Aradığınız aracın 2. el en ucuz fiyatını anında bulun!
     <br/>
     <br/>
-    <a href="https://github.com/Furkan-izgi/En Uygun Araç"><strong>İncele! »</strong></a>
+    <a href="https://github.com/Furkan-izgi/EnUygunArac"><strong>İncele! »</strong></a>
     <br/>
     <br/>
+    |
+    <a href="https://github.com/Furkan-izgi/EnUygunArac/issues">Hata Bildir!</a>
     .
-    <a href="https://github.com/Furkan-izgi/En Uygun Araç/issues">Hata Bildir!</a>
-    .
-    <a href="https://github.com/Furkan-izgi/En Uygun Araç/issues">Koda Ekleme Yap!</a>
-    .
+    <a href="https://github.com/Furkan-izgi/EnUygunArac/issues">Koda Ekleme Yap!</a>
+    |
   </p>
 </p>
 
-<p align="center">![Downloads](https://img.shields.io/github/downloads/Furkan-izgi/EnUygunArac/total) ![Contributors](https://img.shields.io/github/contributors/Furkan-izgi/EnUygunArac?color=dark-green) ![Issues](https://img.shields.io/github/issues/Furkan-izgi/EnUygunArac) ![License](https://img.shields.io/github/license/Furkan-izgi/EnUygunArac) </p>
-
-## İçindekiler
-
-* [Proje Hakkında](#about-the-project)
-* [Built With](#built-with)
-* [Getting Started](#getting-started)
-  * [Gereklilikler](#prerequisites)
-  * [Kurulum](#installation)
-* [Kullanım](#usage)
-* [Destek Ver!](#contributing)
-* [Lisans](#license)
-* [Eser Sahibi](#authors)
-* [Teşekkürler](#acknowledgements)
+![Downloads](https://img.shields.io/github/downloads/Furkan-izgi/EnUygunArac/total) ![Contributors](https://img.shields.io/github/contributors/Furkan-izgi/EnUygunArac?color=dark-green) ![Issues](https://img.shields.io/github/issues/Furkan-izgi/EnUygunArac) ![License](https://img.shields.io/github/license/Furkan-izgi/EnUygunArac)
 
 ## Proje Hakkında
 
-![Screen Shot](assets/readme/kapak-foto.png)
-
 Sürekli siteleri gezerek istediğiniz arabanın en ucuzunu arayarak vakit mi kaybediyorsunuz? 
 
-O zaman bu program tam size göre!
+O zaman En Uygun Araç tam size göre!
 
-İstediğiniz aracın, istediğiniz modelinin sıfır ve en ucuz 2. el fiyatını size gösteren bu uygulama, yine sizi düşünerek ilanın linkini de sizinle paylaşıyor!
+İstediğiniz aracın, istediğiniz modelinin sıfır ve en ucuz 2. el fiyatını size gösteren En Uygun Araç, yine sizi düşünerek ilanın linkini de sizinle paylaşıyor!
 
-Neden En Uygun Araç ?
+### Neden En Uygun Araç ?
 
-* Vaktiniz önemlidir! Kim dakikalarını, saatlerini bir araba için harcamak ister ki! Uygulamamız size vakitten kazanç sağlar! 
+* Vaktiniz önemlidir! Kim dakikalarını, saatlerini bir araba için harcamak ister ki! En Uygun Araç size vakitten kazanç sağlar! 
 Ne de olsa "Vakit nakittir!" :smile:
 * Her seferinde malum sitelere girerek arama yapmak yerine sizlere hazır olarak verilmiş markalar ve modeller arasından istediğinizi hızlıca seçebilirsiniz!
 * Ve bütün bunları yaparak Bursaspor'a destek olabilirsiniz! :sweat_smile:
 
-Eklenecekler:
+### Eklenecekler:
 * Bazı markaların modellerinin fotoğrafları sisteme eklenecek.
 * Arayüz kısmında iyileştirmeler yapılacak.
 * Karanlık ve aydınlık mod eklenecek.
+* Kurulum dosyası eklenecek.
 * Android ve IOS için uygulama yapılacak (Ee tabi bunları yapmak için gereken dilleri öğrendiğimde :smile:)
 
-## Built With
+## Özellikler
+* Resimleri Aç/Kapa
 
-Here are a few examples.
+![Screen Shot](assets/readme/resim-ac-kapa.gif)
 
-## Getting Started
+* Hakkında
 
-En Uygun Araç'ı kurmak oldukça basit!
+![Screen Shot](assets/readme/hakkinda.gif)
 
-### Prerequisites
+
+### Gereklilikler
 
 Gerekli olan programlar:
 
@@ -81,40 +69,41 @@ pip install beautifulsoup4
 pip install requests
 ```
 
-### Installation
-
+### Kurulum
+En Uygun Araç'ı kurmak oldukça basit!
 * Kurulum dosyasını yönetici izni ile çalıştırıp "Next" tuşu ile devam ederek kurulumu gerçekleştirebilirsin!
 
-## Usage
+## Kullanım
+* Örnek Kullanım
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+![Screen Shot](assets/readme/marka-model-sec.gif)
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+_Daha fazla örnek ve geliştirme için, destek olmayı unutmayın!_
 
-## Contributing
-
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-* If you have suggestions for adding or removing projects, feel free to [open an issue](https://github.com/Furkan-izgi/En Uygun Araç/issues/new) to discuss it, or directly create a pull request after you edit the *README.md* file with necessary changes.
-* Please make sure you check your spelling and grammar.
-* Create individual PR for each suggestion.
-* Please also read through the [Code Of Conduct](https://github.com/Furkan-izgi/En Uygun Araç/blob/main/CODE_OF_CONDUCT.md) before posting your first idea as well.
-
-### Creating A Pull Request
+## Destek ve Katkıda Bulunma
 
 Projeyi destekleyip katkıda mı bulunmak istiyorsun? İşte yapacakların:
 
 1. Projeyi "fork" et!
 2. Eklemelerini, hata düzeltmelerini yap.
-3. "Pull Request" açarak projeye katkıda bulun!
+3. "Pull Request" veya "Issue" açarak projeye katkıda bulun!
 
-## License
 
-Bu proje "GNU General Public License v3.0" lisansı ile tescillenmiştir. Lisansı görmek için [LICENSE](https://github.com/Furkan-izgi/En Uygun Araç/blob/main/LICENSE.md) .
+### PR (Pull Request) ve Issue Oluşturma ve Önemli Uyarılar
 
-## Authors
+En Uygun Araç'ı yapan sadece 1 kişi! En Uygun Araç'a ek özellikler, hata düzeltmeleri yapmanız beni **fazlasıyla** mutlu edecektir.
+* Projeye eklemek veya projeden kaldırmak istediklerinizi [Issue](https://github.com/Furkan-izgi/EnUygunArac/issues/new) kısmından bana iletebilir ya da direkt olarak "Pull Request" yolu ile *Proje* üzerinde gerekli gördüğünüz değişiklikleri yapabilirsiniz.
+* Katkıda bulunurken lütfen imla ve yazım kurallarına uyun.
+* Her öneri / düzeltme için **bir** adet PR veya Issue oluşturun.
 
-* **Furkan İzgi** - *Electrical Electronic Engineer / Developer* - [Furkan İzgi](https://github.com/Furkan-izgi/) -
+## Lisans
 
-## Acknowledgements
+Bu proje "GNU General Public License v3.0" lisansı ile tescillenmiştir. Lisansı görmek için [Tıkla](https://github.com/Furkan-izgi/EnUygunArac/blob/main/LICENSE.md) .
+
+## Eser Sahibi
+
+* **Furkan İzgi** - *Elektrik Elektronik Mühendisi / Geliştirici* - [Github](https://github.com/Furkan-izgi/) -
+
+## Teşekkürler
 
 * [Furkan İzgi](https://github.com/Furkan-izgi/)
