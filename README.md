@@ -21,7 +21,7 @@
   </p>
 </p>
 
-![Downloads](https://img.shields.io/github/downloads/Furkan-izgi/EnUygunArac/total) ![Contributors](https://img.shields.io/github/contributors/Furkan-izgi/EnUygunArac?color=dark-green) ![Issues](https://img.shields.io/github/issues/Furkan-izgi/EnUygunArac) ![License](https://img.shields.io/github/license/Furkan-izgi/EnUygunArac) 
+<p align="center">![Downloads](https://img.shields.io/github/downloads/Furkan-izgi/EnUygunArac/total) ![Contributors](https://img.shields.io/github/contributors/Furkan-izgi/EnUygunArac?color=dark-green) ![Issues](https://img.shields.io/github/issues/Furkan-izgi/EnUygunArac) ![License](https://img.shields.io/github/license/Furkan-izgi/EnUygunArac) </p>
 
 ## İçindekiler
 
