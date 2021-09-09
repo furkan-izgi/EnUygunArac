@@ -13,13 +13,15 @@
     <a href="https://github.com/Furkan-izgi/En Uygun Araç"><strong>İncele! »</strong></a>
     <br/>
     <br/>
+    .
     <a href="https://github.com/Furkan-izgi/En Uygun Araç/issues">Hata Bildir!</a>
     .
     <a href="https://github.com/Furkan-izgi/En Uygun Araç/issues">Koda Ekleme Yap!</a>
+    .
   </p>
 </p>
 
-[Downloads](https://img.shields.io/github/downloads/Furkan-izgi/En Uygun Araç/total) [Contributors](https://img.shields.io/github/contributors/Furkan-izgi/En Uygun Araç?color=dark-green) [Issues](https://img.shields.io/github/issues/Furkan-izgi/En Uygun Araç) [License](https://img.shields.io/github/license/Furkan-izgi/En Uygun Araç) 
+![Downloads](https://img.shields.io/github/downloads/Furkan-izgi/EnUygunArac/total) ![Contributors](https://img.shields.io/github/contributors/Furkan-izgi/EnUygunArac?color=dark-green) ![Issues](https://img.shields.io/github/issues/Furkan-izgi/EnUygunArac) ![License](https://img.shields.io/github/license/Furkan-izgi/EnUygunArac) 
 
 ## İçindekiler
 
