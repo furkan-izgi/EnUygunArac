@@ -10,18 +10,16 @@
     Aradığınız aracın 2. el en ucuz fiyatını anında bulun!
     <br/>
     <br/>
-    <a href="https://github.com/Furkan-izgi/En Uygun Araç"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/Furkan-izgi/En Uygun Araç"><strong>İncele! »</strong></a>
     <br/>
     <br/>
-    <a href="https://github.com/Furkan-izgi/En Uygun Araç">View Demo</a>
+    <a href="https://github.com/Furkan-izgi/En Uygun Araç/issues">Hata Bildir!</a>
     .
-    <a href="https://github.com/Furkan-izgi/En Uygun Araç/issues">Report Bug</a>
-    .
-    <a href="https://github.com/Furkan-izgi/En Uygun Araç/issues">Request Feature</a>
+    <a href="https://github.com/Furkan-izgi/En Uygun Araç/issues">Koda Ekleme Yap!</a>
   </p>
 </p>
 
-![Downloads](https://img.shields.io/github/downloads/Furkan-izgi/En Uygun Araç/total) ![Contributors](https://img.shields.io/github/contributors/Furkan-izgi/En Uygun Araç?color=dark-green) ![Issues](https://img.shields.io/github/issues/Furkan-izgi/En Uygun Araç) ![License](https://img.shields.io/github/license/Furkan-izgi/En Uygun Araç) 
+[Downloads](https://img.shields.io/github/downloads/Furkan-izgi/En Uygun Araç/total) [Contributors](https://img.shields.io/github/contributors/Furkan-izgi/En Uygun Araç?color=dark-green) [Issues](https://img.shields.io/github/issues/Furkan-izgi/En Uygun Araç) [License](https://img.shields.io/github/license/Furkan-izgi/En Uygun Araç) 
 
 ## İçindekiler
 
