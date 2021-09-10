@@ -39,13 +39,17 @@ Ne de olsa "Vakit nakittir!" :smile:
 * Ve bütün bunları yaparak Bursaspor'a destek olabilirsiniz! :sweat_smile:
 
 ### Eklenecekler:
-* Bazı markaların modellerinin fotoğrafları sisteme eklenecek.
+* Bazı markaların modellerinin fotoğrafları sisteme eklenecek.(**EKLENDİ!**)
 * Arayüz kısmında iyileştirmeler yapılacak.
-* Karanlık ve aydınlık mod eklenecek.
+* Karanlık ve aydınlık mod eklenecek.(**EKLENDİ!**)
 * Kurulum dosyası eklenecek.
 * Android ve IOS için uygulama yapılacak (Ee tabi bunları yapmak için gereken dilleri öğrendiğimde :smile:)
 
 ## Özellikler
+* Açık ve Koyu Mod
+
+![Screen Shot](assets/readme/temalar.gif)
+
 * Resimleri Aç/Kapa
 
 ![Screen Shot](assets/readme/resim-ac-kapa.gif)
