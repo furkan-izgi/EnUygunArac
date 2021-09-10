@@ -10,9 +10,6 @@
     Aradığınız aracın 2. el en ucuz fiyatını anında bulun!
     <br/>
     <br/>
-    <a href="https://github.com/Furkan-izgi/EnUygunArac"><strong>İncele! »</strong></a>
-    <br/>
-    <br/>
     |
     <a href="https://github.com/Furkan-izgi/EnUygunArac/issues">Hata Bildir!</a>
     .
