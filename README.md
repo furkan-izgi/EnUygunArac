@@ -13,7 +13,7 @@
     |
     <a href="https://github.com/Furkan-izgi/EnUygunArac/issues">Hata Bildir!</a>
     .
-    <a href="https://github.com/Furkan-izgi/EnUygunArac/issues">Koda Ekleme Yap!</a>
+    <a href="https://github.com/Furkan-izgi/EnUygunArac/pulls">Koda Ekleme Yap!</a>
     |
   </p>
 </p>
