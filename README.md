@@ -77,7 +77,7 @@ En Uygun Araç'ı kurmak oldukça basit!
 ## Kullanım
 * Örnek Kullanım
 
-![Screen Shot](assets/readme/marka-model-sec.gif)
+![Screen Shot](assets/readme/kullanim.gif)
 
 _Daha fazla örnek ve geliştirme için, destek olmayı unutmayın!_
 
