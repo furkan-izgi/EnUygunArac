@@ -7,7 +7,7 @@
   <h3 align="center">En Uygun Araç</h3>
 
   <p align="center">
-    Aradığınız aracın 2. el en ucuz fiyatını anında bulun!
+    _Aradığınız aracın 2. el en ucuz fiyatını anında bulun!_
     <br/>
     <br/>
     |
@@ -33,14 +33,13 @@ O zaman En Uygun Araç tam size göre!
 * Vaktiniz önemlidir! Kim dakikalarını, saatlerini bir araba için harcamak ister ki! En Uygun Araç size vakitten kazanç sağlar! 
 Ne de olsa "Vakit nakittir!" :smile:
 * Her seferinde malum sitelere girerek arama yapmak yerine sizlere hazır olarak verilmiş markalar ve modeller arasından istediğinizi hızlıca seçebilirsiniz!
-* Ve bütün bunları yaparak Bursaspor'a destek olabilirsiniz! :sweat_smile:
 
 ### Eklenecekler:
-* Bazı markaların modellerinin fotoğrafları sisteme eklenecek.(**EKLENDİ!**)
+* ~~Bazı markaların modellerinin fotoğrafları sisteme eklenecek.~~
 * Arayüz kısmında iyileştirmeler yapılacak.
-* Karanlık ve aydınlık mod eklenecek.(**EKLENDİ!**)
+* ~~Karanlık ve aydınlık mod eklenecek.~~
 * Kurulum dosyası eklenecek.
-* Android ve IOS için uygulama yapılacak (Ee tabi bunları yapmak için gereken dilleri öğrendiğimde :smile:)
+* Android ve IOS için uygulama yapılacak.
 
 ## Özellikler
 * Açık ve Koyu Mod
@@ -69,10 +68,13 @@ pip install beautifulsoup4
 ```sh
 pip install requests
 ```
-
+* PyQt Kütüphanesi
+```sh
+pip install PyQt5
+```
 ### Kurulum
 En Uygun Araç'ı kurmak oldukça basit!
-* Kurulum dosyasını yönetici izni ile çalıştırıp "Next" tuşu ile devam ederek kurulumu gerçekleştirebilirsin!
+* Sağ üstte bulunan "Code" kısmına tıklayıp "Download ZIP" veya diğer şeçenekler ile bilgisayarına indirip "frontend.py" dosyasına çift tıklaman yeterli.
 
 ## Kullanım
 * Örnek Kullanım
