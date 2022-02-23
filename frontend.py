@@ -2,6 +2,7 @@ from PyQt5 import QtCore, QtWidgets
 from PyQt5.QtGui import QIcon, QPixmap
 from PyQt5.QtWidgets import QAction, QApplication, QComboBox, QLabel, QMainWindow, QMessageBox, QPushButton
 import sys
+import frontend_funcs as ff
 import backend
 import webbrowser
       
@@ -12,40 +13,6 @@ class Window(QMainWindow):
         self.initUI()
         self.show()
     
-    def aboutWindow(self):
-        self.winTable = WinTable()
-        self.winTable.show()
-    
-    def modelsName(self):
-        self.lbl_model_info.setText("Model             : ")
-        self.combobox_model.clear()
-        self.combobox_model.addItem("Model Seçiniz...")
-        self.combobox_model.addItems(backend.get_cars(self,self.marka_dicts[self.combobox_marka.currentText()]))
-        self.combobox_model.setCurrentText("Model Seçiniz...")   
-        
-    def getPicture(self):
-        self.model_index = self.combobox_model.currentIndex()
-        self.pic = QPixmap("assets\\" + self.marka_dicts[self.combobox_marka.currentText()] + "\\"+ str(self.model_index) +".webp").scaled(310, 310, QtCore.Qt.KeepAspectRatio)
-             
-    def getModel(self,model_name):
-        model_name = self.combobox_model.currentText()
-        
-        if model_name == "Model Seçiniz...":
-            QMessageBox.warning(self,"Hata","Lütfen bir model seçiniz!",QMessageBox.Ok)
-            
-        else:
-            self.model_index = self.combobox_model.currentIndex()
-            self.link = backend.get_car_link(self, model_name)
-            self.lbl_model_info.setText("Model             : " + model_name)
-            self.lbl_sifir_fiyat.setText("Sıfır Fiyatı       :" + backend.get_prices(self, self.marka_dicts[self.combobox_marka.currentText()], self.model_index))
-            self.lbl_2_fiyat.setText("En Ucuz 2.El Fiyatı  :" + backend.get_2_price(self, model_name))
-            if self.link == "":
-                self.car_link.setText('')
-            else:
-                self.car_link.setText('<a href = https://www.arabam.com' + self.link + '>Link</a>')
-            Window.getPicture(self)
-            self.pic_lbl.setPixmap(self.pic)
-            
     def whiteTheme(self):
         self.variables  = [self.lbl_marka_info,self.lbl_model_info,self.lbl_2_fiyat,self.lbl_title,self.lbl_marka,self.lbl_model,self.marka_btn,self.model_btn,self.lbl_sifir_fiyat,self.combobox_marka,self.combobox_model,self.about]
                
@@ -65,25 +32,7 @@ class Window(QMainWindow):
             variable.setStyleSheet("color:white;")
             
         self.menubar.setStyleSheet("background-color: #424751; color:white;")
-            
-    def getMarka(self,marka_name):
-        marka_name = self.combobox_marka.currentText()
-        if marka_name == "Marka Seçiniz...":
-            QMessageBox.warning(self,"Hata","Lütfen bir marka seçiniz!",QMessageBox.Ok)
-        else:
-            self.lbl_marka_info.setText("Marka             : " + marka_name)
-            self.lbl_model_info.setText("Model             : ")
-            self.lbl_sifir_fiyat.setText("Sıfır Fiyatı       :")
-            self.lbl_2_fiyat.setText("En Ucuz 2.El Fiyatı  :")
-            Window.modelsName(self)
-            self.model_btn.setEnabled(True)
-            
-    def picOn(self):
-        self.pic_lbl.resize(350,200)
-    
-    def picOff(self):
-        self.pic_lbl.resize(0,0)
-    
+                
     def initUI(self):
         self.setGeometry(100, 100, 610, 400)
         self.setWindowTitle("En Uygun Araç")
@@ -113,12 +62,12 @@ class Window(QMainWindow):
         
         self.marka_btn  = QPushButton("Marka Seç",self)
         self.marka_btn.move(50, 140)
-        self.marka_btn.clicked.connect(lambda marka_name: Window.getMarka(self, marka_name))
+        self.marka_btn.clicked.connect(lambda marka_name: ff.Funcs.getMarka(self, marka_name))
         
         self.model_btn  = QPushButton("Model Seç",self)
         self.model_btn.move(350, 140)
         self.model_btn.setEnabled(False)
-        self.model_btn.clicked.connect(lambda model_name: Window.getModel(self, model_name))
+        self.model_btn.clicked.connect(lambda model_name: ff.Funcs.getModel(self, model_name))
         
         self.lbl_marka_info = QLabel("Marka             :", self)
         self.lbl_marka_info.move(50, 200)
@@ -159,11 +108,11 @@ class Window(QMainWindow):
         
         self.pic_on = QAction(QIcon("assets/icons/pic_on.png"), "Resimleri &Aç", self)
         self.pic_on.setShortcut("Ctrl+O")
-        self.pic_on.triggered.connect(lambda: Window.picOn(self))
+        self.pic_on.triggered.connect(lambda: ff.Funcs.picOn(self))
         
         self.pic_off = QAction(QIcon("assets/icons/pic_off.png"), "Resimleri &Kapat", self)
         self.pic_off.setShortcut("Ctrl+C")
-        self.pic_off.triggered.connect(lambda: Window.picOff(self))
+        self.pic_off.triggered.connect(lambda: ff.Funcs.picOff(self))
         
         self.gray_theme = QAction(QIcon("assets/icons/gray.png"), "&Gri Tema", self)
         self.gray_theme.triggered.connect(lambda: Window.grayTheme(self))
