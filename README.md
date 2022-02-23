@@ -7,7 +7,7 @@
   <h3 align="center">En Uygun Araç</h3>
 
   <p align="center">
-    _Aradığınız aracın 2. el en ucuz fiyatını anında bulun!_
+    Aradığınız aracın 2. el en ucuz fiyatını anında bulun!
     <br/>
     <br/>
     |
