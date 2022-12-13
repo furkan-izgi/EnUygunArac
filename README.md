@@ -37,10 +37,9 @@ Ne de olsa "Vakit nakittir!" :smile:
 
 ### Eklenecekler:
 * ~~Bazı markaların modellerinin fotoğrafları sisteme eklenecek.~~
-* Arayüz kısmında iyileştirmeler yapılacak.
 * ~~Karanlık ve aydınlık mod eklenecek.~~
-* Kurulum dosyası eklenecek.
-* Android ve IOS için uygulama yapılacak.
+* Android ve IOS için uygulama yapılacak.(Flutter öğrenildikten sonra)
+* Projenin arayüzünde düzenlemeler ve fonksiyonlarda iyileştirmeler yapılacak
 
 ## Özellikler
 * Açık ve Koyu Mod
