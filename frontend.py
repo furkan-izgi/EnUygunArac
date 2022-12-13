@@ -2,7 +2,7 @@ from PyQt5 import QtCore, QtWidgets
 from PyQt5.QtGui import QIcon, QPixmap
 from PyQt5.QtWidgets import QAction, QApplication, QComboBox, QLabel, QMainWindow, QMessageBox, QPushButton
 import sys
-import frontend_funcs as ff
+import frontend_funcs as ffuncs
 import backend
 import webbrowser
       
@@ -62,12 +62,12 @@ class Window(QMainWindow):
         
         self.brand_btn  = QPushButton("Marka Seç",self)
         self.brand_btn.move(50, 140)
-        self.brand_btn.clicked.connect(lambda marka_name: ff.Funcs.getMarka(self, marka_name))
+        self.brand_btn.clicked.connect(lambda brand_name: ffuncs.Funcs.getBrand(self, brand_name))
         
         self.model_btn  = QPushButton("Model Seç",self)
         self.model_btn.move(350, 140)
         self.model_btn.setEnabled(False)
-        self.model_btn.clicked.connect(lambda model_name: ff.Funcs.getModel(self, model_name))
+        self.model_btn.clicked.connect(lambda model_name: ffuncs.Funcs.getModel(self, model_name))
         
         self.lbl_brand_info = QLabel("Marka             :", self)
         self.lbl_brand_info.move(50, 200)
