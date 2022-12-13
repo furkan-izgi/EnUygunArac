@@ -14,17 +14,17 @@ class Window(QMainWindow):
         self.show()
     
     def whiteTheme(self):
-        self.variables  = [self.lbl_marka_info,self.lbl_model_info,self.lbl_2_fiyat,self.lbl_title,self.lbl_marka,self.lbl_model,self.marka_btn,self.model_btn,self.lbl_sifir_fiyat,self.combobox_marka,self.combobox_model,self.about]
+        self.variables  = [self.lbl_brand_info,self.lbl_model_info,self.lbl_2_price,self.lbl_title,self.lbl_brand,self.lbl_model,self.brand_btn,self.model_btn,self.lbl_price,self.combobox_brand,self.combobox_model,self.about]
                
         self.setStyleSheet("background-color: #dee3e3;")
         
-        for variable in self.variables:#Bütün labellar, butonlar, comboboxların text colorları değiştirildi!
+        for variable in self.variables: #All labels, buttons and comboboxes text colors changed!
             variable.setStyleSheet("color: black;")
             
         self.menubar.setStyleSheet("background-color:#dee3e3; color:black;")
    
     def grayTheme(self):       
-        self.variables  = [self.lbl_marka_info,self.lbl_model_info,self.lbl_2_fiyat,self.lbl_title,self.lbl_marka,self.lbl_model,self.marka_btn,self.model_btn,self.lbl_sifir_fiyat,self.combobox_marka,self.combobox_model,self.about]
+        self.variables  = [self.lbl_brand_info,self.lbl_model_info,self.lbl_2_price,self.lbl_title,self.lbl_brand,self.lbl_model,self.brand_btn,self.model_btn,self.lbl_price,self.combobox_brand,self.combobox_model,self.about]
         
         self.setStyleSheet("background-color: #424751;")
         
@@ -52,38 +52,38 @@ class Window(QMainWindow):
         self.lbl_title = QLabel("En Uygun Araç", self)
         self.lbl_title.move(265, 15)
         
-        self.lbl_marka = QLabel("Marka", self)
-        self.lbl_marka.move(130, 50)
-        self.lbl_marka.setFixedWidth(400)
+        self.lbl_brand = QLabel("Marka", self)
+        self.lbl_brand.move(130, 50)
+        self.lbl_brand.setFixedWidth(400)
         
         self.lbl_model = QLabel("Model",self)
         self.lbl_model.move(430, 50)
         self.lbl_model.setFixedWidth(400)
         
-        self.marka_btn  = QPushButton("Marka Seç",self)
-        self.marka_btn.move(50, 140)
-        self.marka_btn.clicked.connect(lambda marka_name: ff.Funcs.getMarka(self, marka_name))
+        self.brand_btn  = QPushButton("Marka Seç",self)
+        self.brand_btn.move(50, 140)
+        self.brand_btn.clicked.connect(lambda marka_name: ff.Funcs.getMarka(self, marka_name))
         
         self.model_btn  = QPushButton("Model Seç",self)
         self.model_btn.move(350, 140)
         self.model_btn.setEnabled(False)
         self.model_btn.clicked.connect(lambda model_name: ff.Funcs.getModel(self, model_name))
         
-        self.lbl_marka_info = QLabel("Marka             :", self)
-        self.lbl_marka_info.move(50, 200)
-        self.lbl_marka_info.setFixedWidth(400)
+        self.lbl_brand_info = QLabel("Marka             :", self)
+        self.lbl_brand_info.move(50, 200)
+        self.lbl_brand_info.setFixedWidth(400)
         
         self.lbl_model_info = QLabel("Model             :", self)
         self.lbl_model_info.move(50, 230)
         self.lbl_model_info.setFixedWidth(400)
         
-        self.lbl_sifir_fiyat = QLabel("Sıfır Fiyatı       :", self)
-        self.lbl_sifir_fiyat.move(50, 260)
-        self.lbl_sifir_fiyat.setFixedWidth(400)
+        self.lbl_price = QLabel("Sıfır Fiyatı       :", self)
+        self.lbl_price.move(50, 260)
+        self.lbl_price.setFixedWidth(400)
         
-        self.lbl_2_fiyat = QLabel("En Ucuz 2.El Fiyatı  :", self)
-        self.lbl_2_fiyat.move(50, 290)
-        self.lbl_2_fiyat.setFixedWidth(400)
+        self.lbl_2_price = QLabel("En Ucuz 2.El Fiyatı  :", self)
+        self.lbl_2_price.move(50, 290)
+        self.lbl_2_price.setFixedWidth(400)
         
         self.car_link = QLabel("", self)
         self.car_link.move(50, 320)
@@ -165,12 +165,12 @@ class Window(QMainWindow):
         
         
         ########################################################################
-        self.combobox_marka = QComboBox(self)
-        self.combobox_marka.move(50, 90)
-        self.combobox_marka.setFixedWidth(200)
-        self.combobox_marka.addItem("Marka Seçiniz...")
-        self.combobox_marka.addItems(self.key for self.key in self.marka_dicts.keys())
-        self.combobox_marka.setCurrentText("Marka Seçiniz...")
+        self.combobox_brand = QComboBox(self)
+        self.combobox_brand.move(50, 90)
+        self.combobox_brand.setFixedWidth(200)
+        self.combobox_brand.addItem("Marka Seçiniz...")
+        self.combobox_brand.addItems(self.key for self.key in self.marka_dicts.keys())
+        self.combobox_brand.setCurrentText("Marka Seçiniz...")
         self.combobox_model = QComboBox(self)
         self.combobox_model.move(350, 90)
         self.combobox_model.setFixedWidth(200)
