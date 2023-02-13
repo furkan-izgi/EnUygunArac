@@ -99,6 +99,10 @@ En Uygun Araç'ı yapan sadece 1 kişi! En Uygun Araç'a ek özellikler, hata d�
 * Katkıda bulunurken lütfen imla ve yazım kurallarına uyun.
 * Her öneri / düzeltme için **bir** adet PR veya Issue oluşturun.
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=furkan-izgi/EnUygunArac&type=Date)](https://star-history.com/#furkan-izgi/EnUygunArac&Date)
+
 ## Lisans
 
 Bu proje "GNU General Public License v3.0" lisansı ile tescillenmiştir. Lisansı görmek için [Tıkla](https://github.com/Furkan-izgi/EnUygunArac/blob/main/LICENSE.md) .
