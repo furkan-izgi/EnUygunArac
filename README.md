@@ -16,7 +16,7 @@
     <a href="https://github.com/Furkan-izgi/EnUygunArac/pulls">Koda Ekleme Yap!</a>
     |
   </p>
-  <h4>Not: Okulumdaki yoğunluğumdan dolayı bir türlü güncelleme yapamadım. İlgilenmeye çalışacağım.</h4>
+  <h4>Not: Okulumdaki yoğunluğumdan dolayı bir türlü güncelleme yapamadım. İlgilenmeye çalışacağım. Scraper kısmında değişiklik yapılması gerekiyor.</h4>
 </p>
 
 ![Downloads](https://img.shields.io/github/downloads/Furkan-izgi/EnUygunArac/total) ![Contributors](https://img.shields.io/github/contributors/Furkan-izgi/EnUygunArac?color=dark-green) ![Issues](https://img.shields.io/github/issues/Furkan-izgi/EnUygunArac) ![License](https://img.shields.io/github/license/Furkan-izgi/EnUygunArac)
